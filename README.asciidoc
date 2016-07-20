@@ -15,6 +15,20 @@ Installation
 	$ ./configure && make
 	$ ./shallot
 
+
+If you want to compile Shallot on MacOSX and have the same error  fatal error: 'openssl/bn.h' file not found , this small todo is for you.
+
+At first you must install openssl by brew.
+
+	brew install openssl
+After that just execute next command
+
+	brew link openssl --force
+
+If you have other errors try to exec  `xcode-select --install`
+
+If You have same error in Debian just exec  `sudo apt-get install libssl-dev`
+
 Usage
 -----
 	$ ./shallot ^test
