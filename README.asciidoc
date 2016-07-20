@@ -21,6 +21,7 @@ If you want to compile Shallot on MacOSX and have the same error  fatal error: '
 At first you must install openssl by brew.
 
 	brew install openssl
+
 After that just execute next command
 
 	brew link openssl --force
